@@ -1,0 +1,48 @@
+/* Apply basic styling to the entire form container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the form */
+form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 900px;
+  height: 80%;
+  background-color: #f8f8f8;
+}
+
+/* Style the form headings */
+h1,
+h2 {
+  font-family: Arial, sans-serif;
+  margin: 10px 0;
+}
+
+/* Style the input fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style the submit button */
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Add hover effect to the button */
+button:hover {
+  background-color: #45a049;
+}
